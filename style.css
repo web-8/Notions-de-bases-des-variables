@@ -1,0 +1,34 @@
+body{
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+}
+.contenair{
+    background-color: rgba(253, 253, 250, 0.5);
+    width: 70%;
+    margin: auto;
+    margin-top: 560px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contenair>img{
+    width: 50%;
+}
+h2{
+    text-align: center;
+    color: rgb(241, 19, 93);
+    font-weight: bold;
+    font-size: 250%;
+}
+h3{
+    text-align: center;
+    color: rgb(29, 94, 13);
+    font-weight: bold;
+    font-size: 200%;
+}
+p{
+    font-size: 150%;
+    color: blue;
+    text-align: center;
+}
+

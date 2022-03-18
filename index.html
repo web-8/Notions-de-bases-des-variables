@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Base des variables</title>
+</head>
+
+<body>
+    <section class="contenair">
+        <h2>Notions de base des VARIABLES</h2>
+        <p>Il y a plusieurs types de variables: <span>LET, VAR et CONST</span>. <br>
+        LET est une variable qui va changer de valeur, par exemple elle compte les points de la page.<br>
+        CONST est une variable qui ne doit pas changer de valeur. Par exemple une balise.<br>
+        VAR est amenée à disparaitre.<br>
+        <br>
+        J'annonce d'abord la variable et ensuite je lui donne l'action à réaliser.
+        Pour cela je cible mon élément dans mon html avec un ID.</p>
+
+        <img src="./id html.png" alt="id"><br><br>
+
+        <p>Puis dans mon JS, je cible mon html avec:</p> <br>
+            <h3> document.getElementById('variable');</h3><br><br>
+        
+           <p> Puis je déclare ma variable et je lui donne son action.</p><br>
+        <p>J'annonce :</p><h3>const.variable = document.ElementById('variable');</h3><br>
+        <h3>variable.style.color = green;</h3>
+
+            <p>Enfin, j'ajoute:</p><br>
+            <h3>console.log(variable);</h3><br>
+            <p>ainsi je vérifie ma console.</p><br>
+            <br>
+
+        <p>Si je souhaite donner une nouvelle valeur (par exemple : 2) à ma variable nommée "variable"<br>
+        alors je l'écris sans annoncer que c'est une variable puisqu'elle a déjà été déclarée.<br>
+         Au lieu de redéclarer CONST.VARIABLE je vais écrire:</p><br>
+        <h3>variable = 2;</h3><br>
+        <br>
+        <p>Puis je vérifie avec :</p>
+        <h3>console.log(variable);</h3><br>
+        <br>
+    
+    </section>
+    <footer>
+        
+    </footer>
+
+<script src="./script.js"></script>   
+</body>
+</html>
